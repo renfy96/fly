@@ -19,3 +19,8 @@ FLY是一个基于Golang的应用脚手架,
 ## 简洁分层架构
 FLY采用了经典的分层架构。同时，为了更好地实现模块化和解耦，采用了依赖注入框架`Wire`。
 尝试使用DDD领域架构
+
+## 安装
+```shell
+go install github.com/renfy96/fly@latest
+```
