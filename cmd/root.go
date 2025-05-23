@@ -13,8 +13,8 @@ import (
 var rootCmd = &cobra.Command{
 	Use:     "fly",
 	Example: "fly new demo-api",
-	Short:   "  _____   _      __   __\n |  ___| | |     \\ \\ / /\n | |_    | |      \\ V / \n |  _|   | |___    | |  \n |_|     |_____|   |_|  \n                        ",
-	Version: fmt.Sprintf("  _____  _   __   __\n |  ___|| |  \\ \\ / /\n | |_   | |   \\ V / \n |  _|  | |___ | |  \n |_|    |_____||_|  \n                    fly %s - Copyright (c) 2025 fly\nReleased under the MIT License.\n\n", "v1"),
+	Short:   " ******** **       **    **\n/**///// /**      //**  ** \n/**      /**       //****  \n/******* /**        //**   \n/**////  /**         /**   \n/**      /**         /**   \n/**      /********   /**   \n//       ////////    // ",
+	Version: fmt.Sprintf(" ******** **       **    **\n/**///// /**      //**  ** \n/**      /**       //****  \n/******* /**        //**   \n/**////  /**         /**   \n/**      /**         /**   \n/**      /********   /**   \n//       ////////    // fly %s - Copyright (c) 2025 fly\nReleased under the MIT License.\n\n", "v1"),
 }
 
 func init() {
